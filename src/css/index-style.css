@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #C0C0C0;
+}
+
+li, a, button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo-img {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #2F4F4F;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(169, 169, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(169, 169, 169, 0.8);
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+}
+
+#banner h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #DCDCDC;
+}
+
+.my-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+#Main-banner {
+    height: 100vh;
+    max-width: 100%;
+}
