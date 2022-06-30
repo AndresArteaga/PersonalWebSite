@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #CED6D6;
 }
 
 li, a, button {
@@ -14,6 +13,27 @@ li, a, button {
     font-size: 16px;
     color: #000000;
     text-decoration: none;
+}
+
+h1, h2, h3, p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
 }
 
 header {
@@ -83,33 +103,37 @@ button:hover {
     z-index: -1;
 }
 
-section h1 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-    font-size: 48px;
-}
-
-.my-name {
-    text-align: right;
-    color: #DCDCDC;
+.my-name-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transparent;
+}
+.my-name {
+    text-align: right;
+    color: #DCDCDC;
+    border: solid;
+    border-color: #7EA4A4;
+    padding: 10px;
+}
+.my-name-container p {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    color: #DCDCDC;
 }
 
 .my-name span {
     color: #A1D1A1;
-    background-color: transparent;
 }
 
 #Description {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 75vh;
     width: 100%;
+    background-color: #CED6D6;
 }
 
 #about-me-container {
@@ -140,16 +164,58 @@ about-me-immage, about-me {
     text-align: justify;
 }
 
-.about-me h2, p {
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
+.about-me h2 {
+    margin-bottom: 20px;
+    border-left: solid;
+    border-color: #7EA4A4;
+    padding-left: 10px;
 }
 
-.about-me h2 {
-    font-size: 30px;
+.Projects {
+    background-color: whitesmoke;
+    border-bottom: 2px solid;
+    border-color: grey;
+}
+
+.proj-container {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+}
+
+.proj-container h3 {
     margin-bottom: 20px;
 }
 
-.about-me p {
-    font-size: 21px;
+.proj-container ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proj-container li {
+    position: relative;
+    width: 450px;
+    height: 210px;
+    margin: 20px 20px;
+    padding: 8px;
+    background-color: white;
+    border-bottom: solid;
+    border-color: #7E8C8C;
+}
+
+.proj-container li:hover {
+    transition: all 0.3s ease 0s;
+    box-shadow: 6px 6px 0.8em #7E8C8C;
+}
+
+.proj-container h3 {
+    text-align: center;
+}
+
+.proj-container p {
+    text-align: justify;
 }
