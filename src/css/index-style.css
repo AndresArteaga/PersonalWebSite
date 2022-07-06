@@ -15,7 +15,7 @@ li, a, button {
     text-decoration: none;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
 }
@@ -30,6 +30,10 @@ h2 {
 
 h3 {
     font-size: 25px;
+}
+
+h4 {
+    font-size: 21px;
 }
 
 p {

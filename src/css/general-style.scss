@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+/*Color base 086FA1 - http://paletton.com/ - full colors*/
+/*Colors*/
+/*Blue*/
+$primary-color-1: #4D96B9;
+$primary-color-2: #2C7FA7;
+$primary-color-3: #086FA1;
+$primary-color-4: #06567D;
+$primary-color-4: #044362;
+/*Orange*/
+$secundary-color-1: #FFB763;
+$secundary-color-1: #FFA339;
+$secundary-color-1: #FF8900;
+$secundary-color-1: #C56A00;
+$secundary-color-1: #9B5300;
+
+/*Variables*/
+
+
+/*Styling*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p, a, li, button {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
