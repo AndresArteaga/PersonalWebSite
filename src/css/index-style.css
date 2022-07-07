@@ -1,44 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
-/*Color base D0D7D7 - http://paletton.com/ - greyish lightest*/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 li, a, button {
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
     font-size: 16px;
-    color: #000000;
     text-decoration: none;
 }
 
-h1, h2, h3, h4, p {
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-h4 {
-    font-size: 21px;
-}
-
-p {
-    font-size: 18px;
-}
 
 header {
     display: flex;
@@ -65,21 +30,13 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
-    color: #2F4F4F;
-}
 
 button {
     padding: 9px 25px;
-    background-color: rgba(159,187,187,1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(159,187,187, 0.8);
 }
 
 #banner {
@@ -102,7 +59,6 @@ button:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #000000;
     opacity: 0.6;
     z-index: -1;
 }
@@ -115,20 +71,13 @@ button:hover {
 }
 .my-name {
     text-align: right;
-    color: #DCDCDC;
     border: solid;
-    border-color: #7EA4A4;
     padding: 10px;
 }
 .my-name-container p {
     font-size: 18px;
     margin-top: 30px;
     text-align: center;
-    color: #DCDCDC;
-}
-
-.my-name span {
-    color: #A1D1A1;
 }
 
 #Description {
@@ -137,7 +86,6 @@ button:hover {
     justify-content: center;
     min-height: 75vh;
     width: 100%;
-    background-color: #CED6D6;
 }
 
 #about-me-container {
@@ -171,12 +119,7 @@ about-me-immage, about-me {
 .about-me h2 {
     margin-bottom: 20px;
     border-left: solid;
-    border-color: #7EA4A4;
     padding-left: 10px;
-}
-
-.Projects {
-    background-color: whitesmoke;
 }
 
 .proj-container {
@@ -204,14 +147,11 @@ about-me-immage, about-me {
     height: 210px;
     margin: 20px 20px;
     padding: 8px;
-    background-color: white;
     border-bottom: solid;
-    border-color: #7E8C8C;
 }
 
 .proj-container li:hover {
     transition: all 0.3s ease 0s;
-    box-shadow: 6px 6px 0.8em #7E8C8C;
 }
 
 .proj-container h3 {
@@ -249,7 +189,6 @@ about-me-immage, about-me {
 }
 
 footer {
-    background-color: #8F939C;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -275,7 +214,6 @@ footer .logo-img {
 }
 
 .bi {
-    color: #9FBBBB;
     font-size: 2rem;
     margin: 0 8px;
 }
@@ -284,5 +222,4 @@ h4 {
     margin-bottom: 12px;
     padding-left: 12px;
     border-left: solid;
-    border-color: #7EA4A4;
 }

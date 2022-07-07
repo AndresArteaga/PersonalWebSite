@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+/*Color base 086FA1 - http://paletton.com/ - full colors*/
+/*Variables*/
+/*Colors*/
+/*Blue*/
+/*Orange*/
+/*Whites*/
+/*General styling*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Page Font style & sizing*/
+h1, h2, h3, h4, p, a, li, button {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 21px;
+  border-color: #FFA339;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*Page coloring*/
+.nav-links li a:hover {
+  color: #06567D;
+}
+
+button {
+  background-color: #2C7FA7;
+}
+
+button:hover {
+  background-color: rgba(44, 127, 167, 0.8);
+}
+
+#banner::after {
+  background-color: black;
+}
+
+.my-name {
+  border-color: #086FA1;
+  color: #DCDCDC;
+}
+
+.my-name-container p {
+  color: #DCDCDC;
+}
+
+.my-name span {
+  color: #086FA1;
+}
+
+#Description {
+  background-color: rgba(77, 150, 185, 0.5);
+}
+
+.about-me h2 {
+  border-color: #086FA1;
+}
+
+.Projects {
+  background-color: rgba(77, 150, 185, 0.3);
+}
+
+.proj-container li {
+  background-color: white;
+  border-color: #06567D;
+}
+
+.proj-container li:hover {
+  box-shadow: 6px 6px 0.8em #06567D;
+}
+
+footer {
+  background-color: #044362;
+}
+
+.bi {
+  color: #FFA339;
+}
+
+.footer-section button {
+  background-color: #FFA339;
+}
+
+.footer-section button:hover {
+  background-color: rgba(255, 163, 57, 0.8);
+}
+
+/*# sourceMappingURL=general-style.css.map */
